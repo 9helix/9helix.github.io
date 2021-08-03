@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="hr">
+<link rel="icon" href="https://image.flaticon.com/icons/png/512/3111/3111484.png" type="image/gif" sizes="16x16">
+
+<head>
+	  <link rel="stylesheet" href="tanks.css">
+	  <title>Svijet tenkova</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta charset="UTF-8">
+	  <button onclick="topFunction()" id="myBtn" title="Go to top"><span>Povratak na vrh</span></button>
+</head>
+<body>
+
+	<h1 style="font-size:4vw">Tenkovi</h1><br>
+	<div>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunctionX()'><strong>Sažmi sve↑</strong></button>
+	<p class="Naslovi">Osnovno</p>
+	<button style="font-size:1.45vw;font-family:Bernars MT Condensed" type="button " onclick='document.getElementById("Basics").innerHTML="Tenk je oklopno vojno vozilo na gusjenicama koje služi za potporu pješaštvu ili djeluje samostalno. Ima glavni top velikog kalibra koji se nalazi na pokretnoj kupoli i dodatne strojnice. Svojim oklopom štiti posadu, a ima mogućnost kretanja po teškim terenima. Glavno je strateško i taktičko oružje u kopnenoj vojsci.Kao vojno sredstvo, tenk se prvo pojavio u Prvom svjetskom ratu kao inovacija britanske vojske i poslužio je u razbijanju rovovskog ratovanja. U 2. svjetskom ratu, tenk je napravio preporod u ratovanju, i skupa sa zrakoplovstvom stvorili su okosnicu vojnog djelovanja u vojnoj doktrini munjevitog ratovanja (njem. Blitzkrieg) kojeg su usavršili i primjenjivali Nijemci, iako su teoretske osnove postavili Englezi po završetku Prvog svjetskog rata."'><b>Saznaj više↓</b></button>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunction()'><strong>Sažmi↑</strong></button>
+	
+	<p id="Basics"></p>
+	<script>
+	function myFunction() {
+	document.getElementById("Basics").innerHTML = "";
+	}
+	</script>
+	<script>
+	function myFunctionX(){
+	document.getElementById("History").innerHTML="";
+	document.getElementById("Basics").innerHTML="";
+	document.getElementById("Design").innerHTML="";
+	document.getElementById("Mane").innerHTML="";
+	document.getElementById("Konstruktori").innerHTML="";
+	document.getElementById("Vrste").innerHTML="";
+	document.getElementById("Domovinski rat").innerHTML="";
+	document.getElementById("Vrijeme").innerHTML="";
+	}
+	</script>
+	<p class="Naslovi">Povijest</p>
+	<button style="font-size:1.45vw;font-family:Bernars MT Condensed" type="button" onclick='document.getElementById("History").innerHTML="Tenk se prvi put pojavio u Velikoj britaniji, a kasnije i u Francuskoj i Njemačkoj. Pukovnik E. Sviton je 1914. godine dao ideju o izgradnji stroja na gusjenicama koji će se kretati preko rovova i probijati neprijateljsku liniju, a svojim oklopom bi štitio posadu i topom uništavao neprijatelja. General J. French je prihvatio ideju i postavio zahtjeve za proizvodnju oklopnog gusjeničkog traktora naoružanog strojnicama koji bi mogao prelaziti preko rova širine 1 metar. Proizvodio se u tvornici traktora Fosters of Lincon. Prvo je 1915. napravljen prototip koji je osnovan na podvozju američkog traktora Holt koji je nazvan Mali Vili (Little Willie). Već sljedeće godine napravljen je 28 tona teški prototip tenka nazvan Majka (Mother), a vozilo je nazvano tank (cisterna). Dobio je oznaku Mark I i ušao je u serijsku proizvodnju. To je bio prvi tenk. Imao je oblik paralelograma i bio je naoružan s dva topa 57 mm na bokovima i s četiri strojnice. Bio je dugačak 8 metara, širok 4,2, a visok 2,2 metra. Pokretao ga je benzinski motor od 105 KS. Prva uporaba bila je protiv Nijemaca na rijeci Somi 15. studenog 1916. godine. Napravljene su poboljšane inačice Mark II (1917.) i Mark III i Mark IV (1918.).Tijekom Drugog svjetskog rata sve važnije zaraćene strane su proizvodile svoje tenkove. Kvaliteta tih proizvoda je veoma varirala što se najbolje uočavalo pri njihovim susretima na bojnom polju. Nepobitno najbolje tenkove je gradila Njemačka, dok se na suprotnoj strani kvalitete nalazio Japan. Tenk je masovno upotrebljavan i postao je glavno oružje u kopnenoj vojsci. Tijekom Drugog svjetskog rata tenkovi su se znatno poboljšali. Povećana je oklopna zaštita, vatrena moć i pokretljivost. Težina tenka se također povećavala pa je tako najteži tenk imao oko 20 tona. Daljnjim ubrzanim razvojem težina tenka se stalno povećavala i tako do kraja rata dosegla težinu preko 60 tona. Njemačka je po Hitlerovoj naredbi razvila super teški tenk Panzer VIII Miš koji je imao težinu od 188 tona (napravljena su samo dva prototipa zbog velikih troškova). Krajem rata u tenkove se počeo ugrađivati Dieselov motor koji je zbog manje potrošnje znatno povećao domet tenka. Povećan je promjer glavnog topa pa je znatno poboljšana vatrena moć. "'><b>Saznaj više↓</b></button>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunction1()'><strong>Sažmi↑</strong></button>
+	<p id="History")></p><script>
+	function myFunction1() {
+	document.getElementById("History").innerHTML = "";
+	}
+</script>
+	<p class="Naslovi"><b>Tenkovi u Domovinskom ratu</b></p>
+	<button  style="font-size:1.45vw;font-family:Bernars MT Condensed" type="button" onclick='document.getElementById("Domovinski rat").innerHTML=" U Domovinskom ratu su se koristili uz tenkove vlastite proizvodnje uglavnom sovjetski tenkovi. Bilo je i tenkova iz Drugog svjetskog rata pa se tako u Armiji BiH i u Hrvatskoj vojsci našlo nekoliko M4 Shermana i M18 Hellcata. Tenk T-55 bio je najrasprostranjeniji i činio je 60% tenkova JNA. Koristili su se i tenkovi T-72 i njegove inačice.<br> Tenkovi koji su korišteni u Domovinskom ratu:<ul><li>M4 Sherman</li><li>M18 Hellcat</li><li>T-34</li><li>T-55</li><li>T-72</li><li>M-84</li></ul><br> Tijekom završnih borbi u deblokadi Dubrovnika, hrvatski su tenkisti iz sastava 1. gardijske brigade Tigrovi s tenkom T-55 iz drugog hitca uspjeli pogoditi jugoslavensku topovnjaču koja se kretala između Cavtata i Mrkana. Nakon što je pogođen, brod je jedva uspio promijeniti kurs i pobjeći u zaklon."'><b>Saznaj više↓</b></button>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunction2()'><strong>Sažmi↑</strong></button>
+	<p id="Domovinski rat"></p>
+	<script>
+	function myFunction2() {
+	document.getElementById("Domovinski rat").innerHTML = "";
+	}
+</script>
+	<p class="Naslovi"><b>Dizajn i konstrukcija</b></p>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='document.getElementById("Design").innerHTML="Osnovni dijelovi tenka su:<ul><li>Tijelo tenka</li><li>Kupola</li><li>Glavni top</li><li>Gusjenice</li><li>Motor</li></ul>Posada tenka se sastoji od 3 do 4 člana:<ul><li>Zapovjednik</li><li>Vozač</li><li>Topnik</li><li>Punitelj topa (u novim tenkovima posao punitelja topa obavlja automatski punjač topa)</li></ul>Poseban problem kod projektiranja oklopa predstavlja izbor materijala koji je usko povezan s masivnošću oklopa. Današni oklopi s obzirom na upotrebljavane materijale mogu se podijeliti na četiri tipa:<ol><li><b>Homogeni oklop - Do sada su najčešće korišteni isključivo metalni homogeni oklopi od čelika, aluminija i titanija koji moraju imati visoku otpornost na proboj. Mogu se dobiti valjenjem, lijevanjem ili kovanjem.</b> </li><li><b>Dvoslojni oklopi</b> - sastoje se od dva međusobno spojena metalna sloja različitih debljina i karakteristika, gdje je prvi sloj visoke tvrdoće i ima visoku otpornost na proboj, a drugi je visoke žilavosti i sprječava stvaranje pukotina nakon udara projektila.</li><li><b>Višeslojni oklopi</b> - Kumulativni projektili predstavljali su velike probleme za oklopna vozila šezdesetih godina, a djelovanje je bilo pogubno za posadu. Iz potrebe efikasne zaštite razbijaju se tzv. sendvič všeslojni oklopi. Najprije se između dviju čeličnih ploča stavljao poliureten ili neki drugi materijal na bazi plastike. Prednja ploča aktivira projektil i biva probijena, a u drugom sloju najveći dio energije troši se na topljenje plastike pa unutarnja pancirna ploča ostaje netaknuta ili neznatno oštećena. Kasnijim razvojem ovakvog oklopa pokušava se umjesto plastike s cementnim pijeskom, pečenom opekom i keramičkim pločicama.</li><li><b>Aktivni oklopi</b> - Karakteristika ovakvih oklopa je veći broj eksplozivnih kutija koje se postavljaju na vanjskim najosjetljivijim dijelovima oklopa. Eksploziv u kutijama se aktivira prilikom udara projektila i snagom eksplozije spriječava formiranje kumulativnog mlaza.<br><br>Uz oklop moderni tenkovi imaju i sustav aktivne zaštite koji se sastoji od ometala laserskih zraka vođenih protuoklopnih raketa i otkrivanja laserskih zraka. S ovim sustavom se smanjuje vjerojatnost pogotka vođene rakete i dobiva učinkovitija zaštita od najveće ugroze suvremenog tenka, protuoklopnih vođenih raketa koje tenk pogađaju odozgo. Ona u većini slučajeva uništi tenk ili napravi velika oštećenja. <br>Oklop se kroz povijest tenka postavljao pod sve manjim kutom. Prvi tenkovi imali su previše okomito postavljenih ploha pa je oklopna zaštita bila manja. Kod modernog tenka prednja strana tijela je postavlijena pod malim kutom što povećava ukupan put projektilu kod probijanja oklopa. Time su se dobile debljine oklopa veće od 1000 mm. Prednja strana je i zašiljena što povećava vjerojatnost da se kod udara granate u oklop, ona odbije (sklizne) od trupa. U moderno vrijeme sve se više pažnije pridodaje izgledu kupole. Tako je kupola Leoparda 2 sprijeda zašiljena kako bi se povećala mogućnost da granata sklizne niz oklop. <br>Usprkost tome što su tenkovi na prvi pogled neranjivi, tenkovi su podložni protutenkovskim aritiljerijama, helikopterima i zrakoplovima, drugim tenkovima i protuoklopnim minama, napadima pješačkog protutenkovskog naoružanja u urbanim borbama i protuoklopnim vođenim raketama. <br><br>U I. svjetskom ratu tenkovi nisu imali teškog naoružanja veću su bili opremljeni s nizom strojnica. Kasnijim razvojem kao glavno oružje tenkova pojavljuje se top koji je najčešće bio postavljen na rotirajuću kupolu. Tijekom Drugog svjetskog rata neki modeli su imali uz glavni top u kupoli i dodatni top (npr. francusku Char B1, britanski Vickers A1E1 Independent) koji je bio smješten s prednje strane tenka. Isto tada određeni broj tenkova bio je modificiran u bacače plamena (M4 Sherman), a najviše su se koristili na pacifičkom bojištu protiv japanskih otočkih utvrđenja. <br>Tenkovi koji su razvijeni prije i za vrijeme Drugog svjetskog rata nisu mogli djelovati noću zbog nepostojanja termovizije. Da bi ispalili granatu trebali bi stati ili barem usporiti. Ciljalo se ručno uz pomoć periskopa. Top je bio stabiliziran u samo jednu ravninu, a vjerojatnost pogađanja bila je vrlo mala. Nakon Drugog svjetskog rata u tenkove se počinju ugrađivati sve sposobniji sustavi za upravljanje paljbom (SUP). Moderni SUP omogućuje tenku gađanje iz pokreta u nepokretne i pokretne mete uz veliku vjerojatnost pogađanja prvom granatom, vojno djelovanje u svim vremenskim uvjetima i automatsko praćenje mete. Današnji topovi i kupole su stabilizirane u dvije ravnine i pokretani su s elektromotorom. <br>Danas se tenkovsko naoružanje sastoji od glavnog topa koji je kod modernijih tenkova kalibra oko 120 mm. Uz glavno naoružanje moderni tenkovi imaju jednu ili više strojnica, a neki imaju i minobacač (npr. izraelska Merkava IV). Danas se uz klasične nevođene tenkovske granate pojavljuju i vođeni projektili koji se uz određene preinake sustava punjenja ispaljuju iz glavnog topa. <br><br>Tenk se od svojeg nastanka kretao na gusjenicama. Prvi tenkovi imali su brzinu malo veću od ljudskog hoda (ne više od 15 km/h). Daljnjim razvojem motora ta se brzina povećala. Današnji moderni tenkovi imaju omjer snage i težine oko 25 KS/t. Prosječna brzina je oko 65 km/h. Ta brzina se pokazala sasvim dovoljna za kvalitetno djelovanje tenka na terenu. Zbog male težine ruski tenkovi su pokretljiviji od zapadnih. <br>Zbog uporabe gusjenica, a ne kotača, tenkovi se mogu kretati po svim vrstama terena, stvarajući vrlo mali pritisak na tlo jednak ljudskom. Relativna brzina tenka po terenu je 40 km/h a po cesti oko 70 km/h. Radi usporedbe većina operacija blitzkrieg je obavljeno brzinom prodora od 5 km/h što je brzina ljudskog hoda. <br><br>Prvi tenkovi su kao pogon koristili benzinske motore koji su imali veliku potrošnju goriva i mali domet (do 100km). Najveći nedostatak benzinskih motora je laka zapaljivost. Takav motor čini tenk dodatno nesigurnim jer prilikom udara granate i pogotka u motor, tenk eksplodira. <br>U Drugom svjetskom ratu u tenkove se počinju ugrađivati Dieselovi motori koji su pouzdaniji i imaju malu potrošnju pa im se i domet povećao (do 700 km). Danas u većinu modernih tenkova ugrađen je Dieselov motor snage od 800 do 1500 KS. Najpoznatiji proizvođač Dieselovih motora za tenkove je njemačka tvrtka MTU. Motori te tvrtke se smatraju najkvalitetnijim u svijetu. Zbog lakše uporabe tenka na ratištu razvijeni su i višegorivi Dieselovi motori koji osim dizelskog goriva mogu puniti i benzinsko gorivo s malo oktana. <br>Kasnije se pojavila višegoriva plinska turbina kao pogon ali nije imala velik uspjeh. Plinska turbina ima duži vijek trajanja, ali joj za rad treba 4 puta više zraka od klasičnih Dieselovih motora. <br><br>Na kupoli su postavljeni senzori za vjetar koji šalju podatke balističkom računalu o smjeru i brzini vjetra kako bi ono prilagodilo izračune oko skretanja granate s početne plutanje. Postavljeni su i senzori za otkrivanje laserskih zraka i njihovo ometanje. U spremištu za streljivo nalaze se senzori za očitavanje temperature radi sprječavanja pregrijavanja i moguće eksplozije."'><strong>Saznaj više↓</strong></button>
+	<button style="font-size:1.45vw;font-family:Bernars MT Condensed" type="button" onclick="myFunction3()"><b>Sažmi↑</b></button>
+	<p id="Design"></p>
+	<script>
+	function myFunction3() {
+	document.getElementById("Design").innerHTML = "";
+	}
+	</script>
+	<p class="Naslovi">Vrste tenkova</p>
+	<button style="font-size:1.45vw;font-family:Bernars MT Condensed" type="button" onclick='document.getElementById("Vrste").innerHTML="Od svog nastanka 1915. i prve borbene uporabe u bitci na Somi (15. rujna 1916.) tenkovi su se razvijali u dva glavna pravca. Jedan je zagovarao gradnju relativno lakih tenkova sa samo jednom kupolom koji su imali izbalansiran odnos paljbene moći, oklopne zaštite i pokretljivosti. Protivnici tog pravca isticali su da takvi laki tenkovi nemaju ni dovoljno paljbene moći da ozbiljnije ugroze neprijatelja zaštićenog fortifikacijama, ni dovoljnu razinu oklopne zaštite da osiguraju preživljavanje posadama. Zbog toga su zagovarali razvoj teških tenkova koji bi imali malu brzinu kretanja, ali bi taj nedostatak nadomještali visokom razinom oklopne zaštite i golemom paljbenom moći. Ona bi se, po njihovom mišljenju, trebala ostvarivati ugradnjom većeg broja topova i teških strojnica. Tipični prijedlozi predviđali su postavljanje tri do čak pet kupola. Iskustva iz Prvog svjetskog rata pokazivala su da su za ofenzivne operacije znatno pogodniji laki i srednji tenkovi zbog brzine i prohodnosti, a da su teški tenkovi učinkovitiji u defenzivnim zadaćama. Suparništvo između te dvije struje održat će se do kraja tridesetih godina dvadesetog stoljeća.<ul><li><b>Brzi tenk</b> - tenk koji ima brzinu veću od 70 km/h i veliku pokretljivost. Razvijen je u Velikoj Britaniji i Francuskoj.</li><li><b> Laki tenk</b> - laki tenk je razvijen tijekom Drugog svjetskog rata. Odlikuje ga velika paljbena moć, mala težina i dobra pokretljivost. Zbog svoje male težine može imati i dobre amfibijske sposobnosti. Laki tenk se počeo koristiti u Drugom svjetskom ratu kao okretno vozilo za izviđanje koje je imalo dobru pokretljivost i kao izravna potpora pješaštvu. Jedan od najpoznatijih lakih tenkova je francuski AMX-13. Proizveden je na kraju Drugog svjetskog rata, a još uvijek se koristi u nekim vojskama. Lake tenkove su poslije Drugog svjetskog rata zamijenila oklopna vozila BMP (Borbeno vozilo pješaštva) koji su osim izviđanja mogli prevesti i jednu pješačku jedinicu od 10 vojnika.</li><li><b>Srednji tenk</b> - srednji tenkovi su kombinacija lakih i teških tenkova. Imaju dobar omjer pokretljivosti, oklopne zaštite i vatrene moći. Mogu poslužiti u mnogim ratnim zadacima kao potpora pješaštvu, topnička potpora i kao lovac tenkova. Za vrijeme Drugog svjetskog rata napravljen je najveći broj ovih tenkova a najbrojniji su bili sovjetski T-34 kojih je proizveden u 57.000 i američki M4 Sherman u 49.000 komada. Bili su najbrojnija porodica tenkova. Sudjelovali su skoro u svim važnijim bitkama u Drugom svjetskom ratu. Iz ovih tenkova su se kasnije razvili glavni borbeni tenkovi (MBT).</li><li><b>Teški tenk</b> - teški tenkovi su razvijeni kako bi ispunili potrebu za ofenzivnim tenkom koji bi probio neprijateljsku liniju i preživio napad neprijateljske artiljerije i tenkova. No zbog svoje velike mase više su korišteni u defenzivnim operacijama. Najveći problem teških tenka bila je otežana pokretljivost i zbog svoje velike mase teško su se prevozili na bojište. Kako su se sve više u bitkama koristili tenkovi, napravljeni su teži tenkovi s jačim oklopom i jačom paljbenom moći kako bi bez većih problema uništavali protivničke. Prvi uspješniji teški tenkovi bili su njemački Tiger 1 i sovjetski IS-1 i .</li><li><b>Super teški tenk</b> - super teški tenk je razvijen kao nepobjediva ratna mašina ogromne vatrene moći, jakog oklopa i velikih dimenzija. Većina tih tenkova imala je preko 80 tona, a pokušali su se razviti i teži od 1000 tona. Ovi tenkovi nikad nisu ušli u veću serijsku proizvodnju, a neki su ostali samo crteži na papiru. Imali su teške artiljerijske topove katkad promjera većeg od 155 mm. Super teški tenk je zamišljen kao nepobjedivi ratni stroj koji bi uništavao sve pred sobom. Kao pravi primjer tog tenka su crteži i planovi za izgadnju Landkreuzer P. 1000 Ratte koji je trebao imati težinu od 1000 tona, dužinu od 35 metara i oko 20 članova posade.</li></ul>MBT - MBT (Main battle tank) ili glavni borbeni tenk je suvereni tenk koji je postao glavno oružje u svim kopnenim vojskama svijeta. Razvio se iz srednjeg tenka, kao potreba izgradnje suvremenog tenka koji će moći obavljati velik broj različitih zadataka (obrana, napad, potpora pješaštvu, borba tenk protiv tenka itd.). Ovaj tenk objedinjuje oklopnu zaštitu, vatrenu moć i pokretljivost. Svojim topom uništava neprijateljske tenkove, bunkere, ljudstvo i ostala oklopna vozila."'><b>Saznaj više↓</b></button>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunction4()'><strong>Sažmi↑</strong></button>
+	<p id="Vrste"></p>
+	<script>
+	function myFunction4() {
+	document.getElementById("Vrste").innerHTML = "";
+	}
+</script>
+	<p class="Naslovi">Mane tenkova</p>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='document.getElementById("Mane").innerHTML="Sve više pažnje na suvremenom tenku se pridodaje neprimjetnosti na bojištu. Zbog tenkovskog toplinskog, radarskog, zvučnog i seizmičkog odraza tenk je lako primjetan i laka meta protuoklopnih raketa i drugih neprijateljskih borbenih vozila. Stari tenkovi su bili bučni, širili su seizmičke vibracije i zbog toga ih je bilo vrlo lako otkriti i uništiti.<ul><li><b>Toplinski odraz</b> ostavlja svaki tenk zbog rada svog motora. To je velika mana tenka jer se lakše može locirati uz pomoć toplinskih senzora. Neki tenkovi imaju ugrađena višestruko hlađenja ispuha pa se s tim smanjuje toplinski odraz.</li><li><b>Radarski odraz</b> tenka pokušava se umanjiti upotrebom glatkog oklopa i posebnim premazima koji upijaju radarsko zračenje.</li><li><b>Zvučni odraz</b> tenka smanjuje se posebnim utišivačima ispuha i materijalima koji upijaju zvučne vibracije motora.</li><li><b>Seizmički odraz</b> ima svaki tenk zbog svoje velike težine. Kako bi se smanjio, na gusjenice se postavlja guma koja smanjuje prenošenje vibracije s tenka na tlo.</li></ul>"'><b>Saznaj više↓</b></button>	
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunction5()'><strong>Sažmi↑</strong></button>
+	<p id="Mane"></p>
+	<script>
+	function myFunction5() {
+	document.getElementById("Mane").innerHTML = "";
+	}
+</script>
+<p class="Naslovi">Zemlje konsturktori tenkova</p>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='document.getElementById("Konstruktori").innerHTML="Zemlje koje su konstruktori tenkova su:<ul><li> Ruska Federacija</li><li> Ukrajina</li><li> SAD</li><li> Kina</li><li> Indija</li><li> Iran</li><li> Japan</li><li> Pakistan</li><li> Francuska</li><li> Njemačka</li><li> Italija</li><li> Izrael</li><li> Južna Koreja</li><li> Brazil</li><li> Argentina</li><li> Švedska</li><li> Poljska</li><li> Ujedinjeno Kraljevstvo</li><li> Srbija</li></ul>"'><b>Saznaj više↓</b></button>
+	<button type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunction6()'><strong>Sažmi↑</strong></button>
+	<p id="Konstruktori"></p><br>
+	<script>
+	function myFunction6() {
+	document.getElementById("Konstruktori").innerHTML = "";
+	}
+</script>
+	</div>
+	
+	<h2 class="Naslovi"><b>Naši tenkovi favoriti<b></h2><br><br>
+	<div id="slike">
+	<img width=38.25%;height=auto style=margin-left:-400px src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Challenger2-Bergen-Hohne-Training-Area_cropped.jpg/1280px-Challenger2-Bergen-Hohne-Training-Area_cropped.jpg">
+	<p><a style="margin-left:-250px" style=font-size=50% href="https://hr.wikipedia.org/wiki/Challenger_2" target="_blank" >Challenger 2 - UK</p></a><br><br>
+	<img width=38.25%;height=auto style=margin-left:-400px src="https://i.pinimg.com/originals/c5/3d/a4/c53da491ad0897417062ea13febe4668.jpg">
+	<p style=margin-left:-250px><a style="style=margin-left:200px"href="https://www.army-technology.com/projects/leopard-2-a7-main-battle-tank/" target="_blank">Leopard 2A7+ - Njemačka</a></p><br><br>
+	<img style=margin-left:-400px width=38.25%;height=auto src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/M-84_DanOSRH2011.JPG/1024px-M-84_DanOSRH2011.JPG">
+	<p style=margin-left:-250px><a style="style=margin-left:200px"href="https://hr.wikipedia.org/wiki/M-84A4" target="_blank">M-84A4- Hrvatska</a></p><br><br>
+	<img style=margin-left:-400px width=38.25%;height=auto src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/VDayRehearsal05052016-28.jpg/1200px-VDayRehearsal05052016-28.jpg">
+	<p style=margin-left:-250px><a style="style=margin-left:200px"href="https://bs.wikipedia.org/wiki/T-14_Armata" target="_blank">T-14 Armata - Rusija</a></p><br><br>
+	<img style=margin-left:-400px width=38.25%;height=auto src="https://www.armyrecognition.com/images/stories/north_america/united_states/main_battle_tank/m1a2_sepv2/pictures/M1A2%20_SEP_V2_Abrams_main_battle_tank_US_United_States_American_army_military_equipment_008.jpg">
+	<p style=margin-left:-250px><a style="style=margin-left:200px"href="https://hr.wikipedia.org/wiki/M1_Abrams" target="_blank">M1A2 SEP Abrams - SAD</a></p><br><br>
+	<img style=margin-left:-400px width=38.25%;height=auto src="https://armedforces.eu/Images/Tanks/Merkava-4.jpg">
+	<p style=margin-left:-250px><a style="style=margin-left:230px"href="https://hr.wikipedia.org/wiki/Merkava" target="_blank">Merkava Mark IV - Izrael</a></p><br><br>
+	<img style=margin-left:-400px width=38.25%;height=auto src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Japanese_Type_90_Tank_-_2.jpg">
+	<p style=margin-left:-250px><a style="style=margin-left:200px"href="https://hr.wikipedia.org/wiki/Tip_90" target="_blank">Tip 90 - Japan</a></p><br><br>
+	</div>
+	<div>
+	<h2 class="Naslovi"><b>Galerija</b></h2><br>
+	<iframe id="Youtube" width="560" height="315" src="https://www.youtube.com/embed/wql-qlBp-cM?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<p id="Ime" style="font-size:1.8vw"><b>Video: Što je tenk?</b></p><br><br>
+	<img id="Da" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/DaVinciTankAtAmboise.jpeg/200px-DaVinciTankAtAmboise.jpeg">
+	<p id="Vinci"><a href="https://hr.wikipedia.org/wiki/Tenk#Povijest_razvoja_i_uporabe" target="_blank">Da Vincijev borbeni tenk</a></p><br><br>
+	<img width=1%;height=auto id="Little" src="https://i.imgur.com/mHCXZNZ.jpg">
+	<p id="Willie"><a href="https://hr.wikipedia.org/wiki/Little_Willie" target="_blank">Little Willie - prototip tenka</a></p><br><br>
+	<img style=margin-left:80px width=400px id="Mark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/British_Mark_I_male_tank_Somme_25_September_1916.jpg/200px-British_Mark_I_male_tank_Somme_25_September_1916.jpg">
+	<p id="I"><a href="https://hr.wikipedia.org/wiki/Mark_I_(tenk)" target="_blank">Britanski Mark I - prvi tenk na svijetu</a></p><br>
+	<p><img width=40%;height=auto src="https://i.imgur.com/IjhbnKl.jpg" id="Slika"><br><b id="Tenk">Dijelovi tenka</b></p><br>
+	<p><img id="Oklop" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Oklop_nagib.PNG/400px-Oklop_nagib.PNG"><br><b id="Oklop2">Prikaz dijelovanja oklopa</b></p><br><br>
+	</div>
+	<div>
+	<h2 class="Naslovi"><b>Zabavni kutak</b></h2><br><br>
+	<h2 style="font-size:225%;margin-left:20px"><b>World of Tanks</b></h2><br>
+	<iframe style="margin-left:30px;"width="560" height="315" src="https://www.youtube.com/embed/1IqCB8uM3zs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+	<p style="font-size:200%;margin-left:120px"><a href="https://worldoftanks.eu/en/game/download/" target="_blank">Klikni ovdje za download igre!</a></p><br><br><br><br>
+	<img id="Paljba" src="https://img.youtube.com/vi/7kEVWPrZYYY/mqdefault.jpg" style=width:750px;height=422px><br>
+	<button id="Paljba2" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick="document.getElementById('Paljba').src='https://amp.businessinsider.com/images/559145346da811035ab77f23-750-422.jpg'"><b>Paljba!</b></button><button id="Paljba3" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick="document.getElementById('Paljba').src='https://img.youtube.com/vi/7kEVWPrZYYY/mqdefault.jpg'"><b>Napuni!</b></button><br><br><br><br><p id="gif"><img src="https://media.giphy.com/media/3DO3j9joB1BRe/giphy.gif"></p><br>
+	<h2 style="font-size:225%">Koliko je sati?</h2>
+	<button id="Vreme" style="font-size:1.45vw;font-family:Bernars MT Condensed;text-align:center" type="button" onclick="document.getElementById('Vrijeme').innerHTML=Date()"><b>Prikaži↓</b></button>
+	<button id="Tempo" type="button" style="font-size:1.45vw;font-family:Bernars MT Condensed" onclick='myFunctionT()'><strong>Zatvori↑</strong></button>
+	<p id="Vrijeme"></p>
+	<script>
+	function myFunctionT(){
+	document.getElementById("Vrijeme").innerHTML=""
+	}
+	</script>
+	</div><br><br>
+	</script>
+	
+	<audio controls autoplay>
+	<source src="Fisherman's Bay.mp3" type="audio/mpeg">
+	</audio>
+
+	
+	<p id="Izvor"><a href="https://hr.wikipedia.org/wiki/Tenk" target="_blank">Izvor</a><br><br>
+	<p id="Kraj">Izradili: Dino Gržinić - glavni urednik i asistenti (Franko Šorić - stilist, Pavel Chernov - davatelj ideje  i Matej Tadić - moralna podrška)</p>
+	<script>
+	//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+	</script>
+
+
+</body>
+</html>

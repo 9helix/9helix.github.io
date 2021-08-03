@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+body{font-family:Bernars MT Condensed;
+	background-image:url("https://66.media.tumblr.com/c838dd887608a325eaae477ffa4dd2b7/tumblr_myrxsem7AC1s8tqb9o1_500.gif");
+	color:#ffffff;	
+}
+h1{text-align:center;
+   font-size:375%;
+   padding-bottom:50px;
+   color:white;
+}
+p{font-size:165%;
+  text-align:left;
+}
+h2{font-size:270%;
+   color:white;
+}
+#Tenk{margin:270px;
+	 font-size:125%;
+}
+#Vreme{margin-left:px;
+	   margin-top:0px;
+}
+#Paljba3{margin-left:60px;
+}
+#Paljba2{margin-left:290px;
+}
+#Paljba{margin-left:50px;
+}
+#Slika{margin-left:20px;
+}
+#Youtube{margin-left:50px;
+}
+#Ime{margin-left:180px;
+	font-size:200%;
+	margin-top:10px;
+}
+#Oklop{margin-left:80px;
+}
+#Oklop2{margin:100px;
+	   font-size:125%;
+}
+#Kraj{text-align:center;
+	  font-size:125%;
+}
+#Izvor{text-align:left;
+	   margin-top:60px;
+}
+#gif{margin-left:100px;
+}
+#Vinci{margin-left:90px;
+	   margin-top:10px;
+}
+#Da{margin-left:125px;
+}
+#I{margin-left:60px;
+   margin-top:10px;
+}
+#Mark{margin-left:175px;
+}
+#Little{width:400px;
+		height:257,5px;
+		margin-left:80px;
+}
+#Willie{margin-left:120px;
+		margin-top:7px;
+}
+.Naslovi{font-size:2vw;
+		font-weight:bold;
+		text-decoration:underline;
+}
+#Tempo{margin-left:20px;
+}
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition:0.6s;
+  text-align:center;
+  padding:20px;
+  margin:5px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+#myBtn span:after{
+	  content: '\21d1';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+#myBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#myBtn:hover span {
+  padding-right: 25px;
+}
+#myBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#slike{margin-left:500px;
+}
+a:link{
+	  color:blue;
+	  }
+a:visited{
+	  color:green;
+	  }
+a:hover{
+	  color:red;
+	  }
