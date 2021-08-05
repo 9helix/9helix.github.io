@@ -20,10 +20,10 @@
 
 #myVideo {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  left: 0;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 body {
@@ -61,11 +61,11 @@ div {
 #myBtn{
   border-radius: 0.5vw;
   position: relative;
-  top: 45vw;
-  left: 90vw;
+  top: 92vh;
+  left: 92vw;
   width: 7vw;
   font-size: 1.3vw;
-  padding: 0.5vw;
+  padding: 0.9vh;
   border: none;
   background: #1c2630;
   color: #fff;
