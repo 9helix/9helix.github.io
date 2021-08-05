@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @font-face {
   font-family: good_times;
   src: url("GoodTimesRg.ttf");
@@ -13,6 +14,15 @@
 @font-face {
   font-family: earthorbiterbold;
   src: url("earthorbiterbold.ttf");
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -93,6 +103,26 @@ div {
   font-size: 2.2vw;
 }
 
+@keyframes appearUp {
+  0%   {top: 40vw; opacity: 0;}
+  15%   {top: 20vw; opacity: 1;}
+  85%  {top: 20vw; opacity: 1;}
+  100% {top: 10vw; opacity: 0;}
+}
+#moto{
+  position: relative;
+  text-align: center;
+  top: 40vw;
+  opacity: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
+  animation-name: appearUp;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
 
 .loader-wrapper{
   width: 100%;
@@ -166,7 +196,6 @@ div {
     height: 0%;
   }
 }
-
 
 
 
