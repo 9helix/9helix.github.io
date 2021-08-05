@@ -77,20 +77,16 @@ div {
   background-color: #04AA6D;
   color: white;
 }
-@keyframes font_zoom {
-  from {font-size:2.1vw;}
-  to {font-size:2.2vw;}
-}
+
 .name{
   position: relative;
   left: -15vw;
-  top: 0.2vw;
+  top: 0.15vw;
   font-size: 2.1vw;
   color: #f2f2f2;
+  transition: font-size 0.5s;
 }
 
 .name:hover{
-  animation-name: font_zoom;
-  animation-duration: 0.3s;
   font-size: 2.2vw;
 }
