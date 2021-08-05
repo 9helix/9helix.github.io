@@ -58,6 +58,24 @@ div {
   font-feature-settings: 'liga';
 }
 
+#myBtn{
+  border-radius: 0.5vw;
+  position: relative;
+  top: 45vw;
+  left: 90vw;
+  width: 7vw;
+  font-size: 1.3vw;
+  padding: 0.5vw;
+  border: none;
+  background: #1c2630;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+#myBtn:hover{
+  background: #2f4a66;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
