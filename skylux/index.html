@@ -20,10 +20,14 @@
       <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
       </div>
-      
+
       <script>
-        $(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
+        let spinnerWrapper = document.querySelector('.loader-wrapper');
+
+        window.addEventListener('load', function () {
+          //spinnerWrapper.style.display = 'none';
+          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+          document.querySelector('body').classList.add('fade-in');
         });
       </script>
   </body>
