@@ -36,6 +36,8 @@
             var iconSpan = document.createElement('span');
             iconSpan.classList.add('fi-rr-pause');
             btn.appendChild(iconSpan);
+            video.classList.remove('fade-out');
+            video.classList.add('fade-in');
             video.play();
             btn.innerHTML += " Pause";
 
@@ -44,6 +46,8 @@
             var iconSpan = document.createElement('span');
             iconSpan.classList.add('fi-rr-play');
             btn.appendChild(iconSpan);
+            video.classList.remove('fade-in');
+            video.classList.add('fade-out');
             video.pause();
             btn.innerHTML += " Play";
           }

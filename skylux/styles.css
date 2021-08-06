@@ -29,6 +29,7 @@
 body {
   background-image: url("wallpap.png");
   background-repeat: no-repeat;
+  opacity: 0.5;
 }
 div {
   font-family: earthorbiterbold;
@@ -221,6 +222,7 @@ div {
 
 .fade-in {
   animation: fadeIn 0.4s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
@@ -231,4 +233,38 @@ div {
   100% {
     opacity: 1;
   }
+}
+
+.fade-out {
+  animation: fadeOut 0.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.enlarge {
+  animation: enlarge 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.reduce {
+  animation: reduce 0.4s;
+  animation-fill-mode:
+}
+@keyframes enlarge {
+  from{transform: scale(1,1);}
+  to{transform: scale(1.05,1.05);}
+}
+
+@keyframes reduce {
+  from{transform: scale(1.05,1.05);}
+  to{transform: scale(1,1);}
 }
