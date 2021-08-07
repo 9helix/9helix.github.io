@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" type="image/x-icon" href="skylux logo6.png" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="flaticon/css/uicons-regular-rounded.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link href="flaticon/css/uicons-regular-rounded.css" rel="stylesheet" />
     <title>Skylux Productions</title>
   </head>
   <body>
-      <video autoplay muted loop id="myVideo">
-      <source src="movie2.mp4" type="video/mp4">
-      </video>
-      <button id="myBtn" onclick="myFunction()"><span class="fi-rr-pause"></span> Pause</button>
-      <div class="topnav">
-          <span class="name">Skylux Productions</span>
-          <a class="active" href="index.html">Home</a>
-          <a href="index.html">News</a>
-          <a href="index.html">Contact</a>
-          <a href="index.html">About</a>
-      </div>
-      <h2 id="moto">Where <strong>ideas</strong> become <strong>reality</strong>.</h2>
+    <video autoplay muted loop id="myVideo">
+      <source src="movie2.mp4" type="video/mp4" />
+    </video>
+    <button id="myBtn" onclick="myFunction()">
+      <span class="fi-rr-pause"></span> Pause
+    </button>
+    <div class="topnav">
+      <span class="name">Skylux Productions</span>
+      <a class="active" href="index.html">Home</a>
+      <a href="index.html">News</a>
+      <a href="index.html">Contact</a>
+      <a href="index.html">About</a>
+    </div>
+    <h2 id="moto">
+      Where <strong>ideas</strong> become <strong>reality</strong>.
+    </h2>
 
-      <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-      </div>
-      <script>
-        var video = document.getElementById("myVideo");
-        var btn = document.getElementById("myBtn");
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
 
-        function myFunction() {
-          if (video.paused) {
-            btn.innerHTML = "";
-            var iconSpan = document.createElement('span');
-            iconSpan.classList.add('fi-rr-pause');
-            btn.appendChild(iconSpan);
-            video.classList.remove('fade-out');
-            video.classList.add('fade-in');
-            video.play();
-            btn.innerHTML += " Pause";
-
-          } else {
-            btn.innerHTML = "";
-            var iconSpan = document.createElement('span');
-            iconSpan.classList.add('fi-rr-play');
-            btn.appendChild(iconSpan);
-            video.classList.remove('fade-in');
-            video.classList.add('fade-out');
-            video.pause();
-            btn.innerHTML += " Play";
-          }
+      function myFunction() {
+        if (video.paused) {
+          btn.innerHTML = "";
+          var iconSpan = document.createElement("span");
+          iconSpan.classList.add("fi-rr-pause");
+          btn.appendChild(iconSpan);
+          video.classList.remove("fade-out");
+          video.classList.add("fade-in");
+          video.play();
+          btn.innerHTML += " Pause";
+        } else {
+          btn.innerHTML = "";
+          var iconSpan = document.createElement("span");
+          iconSpan.classList.add("fi-rr-play");
+          btn.appendChild(iconSpan);
+          video.classList.remove("fade-in");
+          video.classList.add("fade-out");
+          video.pause();
+          btn.innerHTML += " Play";
         }
-      </script>
-      <script>
-        let spinnerWrapper = document.querySelector('.loader-wrapper');
+      }
+    </script>
+    <script>
+      let spinnerWrapper = document.querySelector(".loader-wrapper");
 
-        window.addEventListener('load', function () {
-          //spinnerWrapper.style.display = 'none';
-          spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-          document.querySelector('body').classList.add('fade-in');
-        });
-      </script>
+      window.addEventListener("load", function () {
+        //spinnerWrapper.style.display = 'none';
+        spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        document.querySelector("body").classList.add("fade-in");
+      });
+    </script>
   </body>
 </html>
