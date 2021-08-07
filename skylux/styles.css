@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @font-face {
   font-family: good_times;
   src: url("GoodTimesRg.ttf");
@@ -17,7 +17,6 @@
   src: url("earthorbiterbold.ttf");
 }
 
-
 #myVideo {
   position: fixed;
   left: 0;
@@ -34,10 +33,10 @@ div {
   font-family: earthorbiterbold;
 }
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -55,10 +54,10 @@ div {
   -moz-osx-font-smoothing: grayscale;
 
   /* Support for IE. */
-  font-feature-settings: 'liga';
+  font-feature-settings: "liga";
 }
 
-#myBtn{
+#myBtn {
   border-radius: 0.5vw;
   position: relative;
   top: 92vh;
@@ -72,7 +71,7 @@ div {
   cursor: pointer;
   transition: background 0.3s;
 }
-#myBtn:hover{
+#myBtn:hover {
   background: #2f4a66;
 }
 
@@ -105,11 +104,11 @@ div {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
-.name{
+.name {
   position: relative;
   left: -15vw;
   top: 0.2vw;
@@ -118,23 +117,35 @@ div {
   transition: font-size 0.4s;
 }
 
-.name:hover{
+.name:hover {
   font-size: 2.2vw;
 }
 
 @keyframes appearUp {
-  0%   {top: 40vw; opacity: 0;}
-  15%   {top: 20vw; opacity: 1;}
-  85%  {top: 20vw; opacity: 1;}
-  100% {top: 10vw; opacity: 0;}
+  0% {
+    top: 40vw;
+    opacity: 0;
+  }
+  15% {
+    top: 20vw;
+    opacity: 1;
+  }
+  85% {
+    top: 20vw;
+    opacity: 1;
+  }
+  100% {
+    top: 10vw;
+    opacity: 0;
+  }
 }
-#moto{
+#moto {
   position: relative;
   text-align: center;
   top: 40vw;
   opacity: 0;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 2.5vw;
   animation-name: appearUp;
@@ -143,8 +154,7 @@ div {
   animation-fill-mode: forwards;
 }
 
-
-.loader-wrapper{
+.loader-wrapper {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -161,7 +171,7 @@ div {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #Fff;
+  border: 4px solid #fff;
   animation: loader 2s infinite ease;
 }
 
@@ -217,8 +227,6 @@ div {
   }
 }
 
-
-
 .fade-in {
   animation: fadeIn 0.4s;
   animation-fill-mode: forwards;
@@ -256,14 +264,22 @@ div {
 
 .reduce {
   animation: reduce 0.4s;
-  animation-fill-mode:
+  animation-fill-mode: ;
 }
 @keyframes enlarge {
-  from{transform: scale(1,1);}
-  to{transform: scale(1.05,1.05);}
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.05, 1.05);
+  }
 }
 
 @keyframes reduce {
-  from{transform: scale(1.05,1.05);}
-  to{transform: scale(1,1);}
+  from {
+    transform: scale(1.05, 1.05);
+  }
+  to {
+    transform: scale(1, 1);
+  }
 }
