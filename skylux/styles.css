@@ -264,7 +264,7 @@ div {
 
 .reduce {
   animation: reduce 0.4s;
-  animation-fill-mode: ;
+  animation-fill-mode: forwards;
 }
 @keyframes enlarge {
   from {
