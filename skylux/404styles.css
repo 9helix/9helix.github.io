@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@font-face {
+  font-family: good_times;
+  src: url("GoodTimesRg.ttf");
+}
+@font-face {
+  font-family: origin_tech;
+  src: url("OriginTech.ttf");
+}
+@font-face {
+  font-family: azonix;
+  src: url("Azonix.otf");
+}
+@font-face {
+  font-family: earthorbiterbold;
+  src: url("earthorbiterbold.ttf");
+}
+
+body{
+    background-image: url('wallpap.png');
+    font-family: good_times;
+}
